@@ -10,7 +10,7 @@ def hello():
 
 def word_list_anagram(word):
   try:
-    perms = [''.join(perm) for perm in itertools.permutations(word)]
+    perm = [''.join(perm) for perm in itertools.permutations(word)]
   except Exception, a:
     print ("Exception follows as ->"+a)
   finally:
