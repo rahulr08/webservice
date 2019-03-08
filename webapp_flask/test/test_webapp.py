@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.insert(0, '/home/ubuntu/webapp_flask/webapp')
+sys.path.insert(0, '/home/ubuntu/ansible_webapp/webapp_flask/webapp')
 from webapp import *
  
 class TestAnagram(unittest.TestCase):
